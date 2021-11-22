@@ -32,16 +32,6 @@
 		    <version>1.9.7</version>
 		    <scope>runtime</scope>
 		</dependency>
-<<<<<<< HEAD
-=======
-		
-		<dependency>
-		    <groupId>com.amazonaws</groupId>
-		    <artifactId>aws-java-sdk</artifactId>
-		    <version>1.12.115</version>
-		</dependency>
->>>>>>> 240eb7f04b7d41f1e496c61eead8e7d47a7147fe
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
