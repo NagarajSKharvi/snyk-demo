@@ -32,11 +32,19 @@
 		    <artifactId>netty-handler</artifactId>
 		    <version>4.1.68.Final</version>
 		</dependency>
-
+		<dependency>
+    		    <groupId>org.hibernate</groupId>
+		    <artifactId>hibernate-core</artifactId>
+		    <version>5.4.32.Final</version>
+		</dependency>
+		<dependency>
+    		    <groupId>org.hibernate.common</groupId>
+		    <artifactId>hibernate-commons-annotation</artifactId>
+		    <version>5.1.2.Final</version>
+		</dependency>
 		<dependency>
 		    <groupId>org.aspectj</groupId>
 		    <artifactId>aspectjweaver</artifactId>
-		    <version>1.9.7</version>
 		    <scope>runtime</scope>
 		</dependency>
 		<dependency>
