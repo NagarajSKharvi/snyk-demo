@@ -48,6 +48,24 @@
 		    <scope>runtime</scope>
 		</dependency>
 		<dependency>
+		    <groupId>org.springframework.data</groupId>
+		    <artifactId>spring-data-envers</artifactId>
+		    <exclusions>
+			<exclusion>
+			    <groupId>com.google.guava</groupId>
+			    <artifactId>guava</artifactId>
+			</exclusion>
+			<exclusion>
+			    <groupId>com.google.code.findbugs</groupId>
+			    <artifactId>annotations</artifactId>
+			</exclusion>
+			<exclusion>
+			    <groupId>org.eclipse.jdt.core.compiler</groupId>
+			    <artifactId>ecj</artifactId>
+			</exclusion>
+		    </exclusions>			    
+		</dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
